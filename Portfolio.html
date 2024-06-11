@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/7822343fe1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               
+                 <!-- <img src="./Screenshot (40).png" class="logo">  -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href=" #about">About</a></li>
+                    <li><a href=" #Services">Services</a></li>
+                    <li><a href=" #portfolio">Portfolio</a></li>
+                    <li><a href=" #contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Student</p>
+                    <h1>Hi, My name is <br><span> Shruti Sharma </span></h1>
+                </div>
+        </div>
+     </div>
+     <!-- -----------------about--------------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Screenshot (40).png" class="logo"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class=" Sub-Title" >About me</h1>
+                    <p>As a dedicated student with a strong passion for development, machine learning, and artificial intelligence, I am continually expanding my knowledge and honing my skills in these cutting-edge fields. My academic journey is driven by a relentless curiosity and a desire to innovate, focusing on creating impactful solutions through technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('education')">Education </p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects </p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                          <li><span>Java Programming</span><br> I am a passionate student with a keen interest in development, specializing in Java. With a solid foundation in Java programming, I enjoy crafting efficient, high-quality code and exploring its applications in creating innovative solutions.</li>  
+                          <li><span>Data Structure And Algorithms</span><br>With a solid foundation in DSA, I enjoy solving complex problems efficiently and applying these principles to create optimized, high-performance solutions.</li>  
+                          <li><span>Internet Of Things</span><br>I enjoy designing and implementing connected systems that integrate seamlessly to enhance everyday life and drive technological innovation.
+
+
+
+
+
+
+                          </li>  
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                          <li><span>2021-2025</span><br>B.Tech CSE</li>  
+                          <li><span>2021</span><br>12th Standard</li>  
+                          <li><span>2019</span><br> 10th Standard</li>  
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="projects">
+                        <ul>
+                          <li><span>Web Development</span><br> Portfolio website</li>  
+                          <li><span>Data Structure And Algorithms</span><br> Algorithm Visualizer</li>  
+                          <li><span>Internet Of Things</span><br> Live Agricultural Rover</li>  
+                        </ul>
+                    </div>
+     
+                </div>
+
+            </div>
+        </div>
+     </div>
+
+     <!-- ------------------------Services------------------- -->
+    <div id="Services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+               <h2>Web Design</h2>
+               <p>I have built a responsive portfolio website that showcases my skills, projects, and interests in development, machine learning, and IoT. The site adapts seamlessly to various devices, ensuring an optimal user experience and effectively highlighting my work and achievements.</p>
+               <a href="#">Learn more</a>
+        
+           </div>
+           <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Core Java</h2>
+            <p>I have developed an interactive sorting visualizer using Bubble Sort, designed with HTML, CSS, and JavaScript. This tool visually demonstrates the sorting process step-by-step, providing an engaging and educational experience for users to understand how Bubble Sort operates in real-time.</p>
+            <a href="#">Learn more</a>
+     
+        </div>
+        <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Machine Learning</h2>
+            <p>
+                I have developed a salary prediction model using machine learning techniques. This model leverages historical data to accurately predict salaries based on various features such as experience, education, and job role, providing valuable insights for both employers and job seekers.</p>
+            <a href="#">Learn more</a>
+     
+        </div>
+
+          </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- -------------------------Portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Screenshot (43).png"/>
+                    <div class="layer">
+                        <h3>Agricultural Rover</h3>
+                        <p>Developed an agricultural rover using IoT technology, designed to assist in precision farming. The rover is equipped with sensors to monitor soil conditions, crop health, and environmental factors, providing real-time data to optimize farming practices and increase crop yields.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Screenshot (42).png"/>
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>I have built a responsive portfolio website that showcases my skills, projects, and interests in development, machine learning, and IoT. The site adapts seamlessly to various devices, ensuring an optimal user experience and effectively highlighting my work and achievements.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Screenshot (44).png"/>
+                    <div class="layer">
+                        <h3>Salary Pridiction Model</h3>
+                        <p>I have developed a salary prediction model using machine learning techniques. This model leverages historical data to accurately predict salaries based on various features such as experience, education, and job role, providing valuable insights for both employers and job seekers.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        <a href="#" class="btn">See More</a>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- ------------------Contact---------------- -->
+     <div id="contact">
+      <div class="container">
+          <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shrutishar03@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>00998877665</p>
+                <div class="social-icons">
+                    <a href="www.shrutishar03@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/diks.ha262006/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shruti-sharma-922875231"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SHRUTI-SHAR"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./Resume_Shruti - Copy.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+          </div>
+
+      </div>
+
+
+       <div class="copyright">
+        <p>Thanks for watching<i class="fa-solid fa-heart"></i></p>
+       </div>
+     </div>
+
+    <script>
+         var tablinks= document.getElementsByClassName("tab-links");
+         var tabcontains= document.getElementsByClassName("tab-contains");
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+
+
+    </script>
+    <script>
+var sidemenu= document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right="0";
+}
+function closemenu() {
+    sidemenu.style.right="-200px";
+}
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzbvOrXjDzzwKIUFLN1ltnLmx0zWDy4uVKweTRocxqT1TaK9Ti5YvzHZ62ieWD3H4vOdQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
